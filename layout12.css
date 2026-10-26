@@ -1,0 +1,70 @@
+body{
+    background-color: rgb(0, 0, 0);
+    height: 100dvh;
+    display: grid;
+    grid-template-columns: repeat(12fr 1fr);
+    grid-template-rows: 0.75fr 0.50fr 1.25fr 0.75fr 0.75fr 1fr;
+    grid-template-areas: 
+    "header header header header header header header header header header header header"
+    "menu1 menu1 menu1 menu1 menu1 menu1 menu2 menu2 menu2 menu2 menu2 menu2"
+    "sol sol sol sol orta orta orta orta sag sag sag sag"
+    "k1 k1 k1 k1 k1 k1 k2 k2 k2 k2 k2 k2"
+    "k3 k3 k3 k3 k3 k3 k4 k4 k4 k4 k4 k4"
+    "footer footer footer footer footer footer footer footer footer footer footer footer"
+    ;
+}
+header{
+    grid-area: header;
+    background-color: blanchedalmond;
+    margin: 3px;
+}
+menu.menu1{
+    grid-area: menu1;
+    background-color: burlywood;
+    margin: 3px;
+}
+menu.menu2{
+    grid-area: menu2;
+    background-color: aquamarine;
+    margin: 3px;
+}
+section.sol{
+    grid-area: sol;
+    background-color: rgb(167, 153, 110);
+    margin: 3px;
+}
+section.orta{
+    grid-area: orta;
+    background-color: blueviolet;
+    margin: 3px;
+}
+section.sag{
+    grid-area: sag;
+    background-color: chocolate;
+    margin: 3px;
+}
+div.k1{
+    grid-area: k1;
+    background-color: blue;
+    margin: 3px;
+}
+div.k2{
+    grid-area: k2;
+    background-color: cyan;
+    margin: 3px;
+}
+div.k3{
+    grid-area: k3;
+    background-color: darkslategray;
+    margin: 3px;
+}
+div.k4{
+    grid-area: k4;
+    background-color: indigo;
+    margin: 3px;
+}
+footer{
+    grid-area: footer;
+    background-color: crimson;
+    margin: 3px;
+}
